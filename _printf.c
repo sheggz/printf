@@ -14,7 +14,7 @@ int _printf(const char *format, ...)
 {
 	int i, num_displayed = 0;
 	va_list arg_ptr;
-	char *str_temp;
+	/* char *str_temp; */
 	int (*func)(va_list);
 
 	va_start(arg_ptr, format);

@@ -6,7 +6,6 @@ int print_binary(va_list arg_p)
 {
         /* we have to print the number R - L */
         int n = va_arg(arg_p, int), char_count = 0;
-	int arr;
         /* let's handle negative numbers noting that putchar only works */
         /* with 0 - 127 i.e no negative */
 
